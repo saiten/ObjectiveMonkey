@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F3E36DA1E08F4CA009F7793 /* ObjectiveMonkey.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3E36D91E08F4CA009F7793 /* ObjectiveMonkey.m */; };
+		7F3E36DB1E08F4CA009F7793 /* ObjectiveMonkey.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F3E36D81E08F4CA009F7793 /* ObjectiveMonkey.h */; };
+		7F3E36E81E08F4FD009F7793 /* NSInvocation+ObjectiveMonkey.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3E36E41E08F4FD009F7793 /* NSInvocation+ObjectiveMonkey.m */; };
+		7F3E36E91E08F4FD009F7793 /* NSMethodSignature+ObjectiveMonkey.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3E36E61E08F4FD009F7793 /* NSMethodSignature+ObjectiveMonkey.m */; };
+		7F3E36EC1E08F55E009F7793 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F3E36EB1E08F55E009F7793 /* JavaScriptCore.framework */; };
+		7F3E36F11E08F5C2009F7793 /* OMKRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3E36EE1E08F5C2009F7793 /* OMKRuntime.m */; };
+		7F3E36F21E08F5C2009F7793 /* OMKObjcBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3E36F01E08F5C2009F7793 /* OMKObjcBox.m */; };
+		7F3E36F51E08F628009F7793 /* JSValue+ObjectiveMonkey.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3E36F41E08F628009F7793 /* JSValue+ObjectiveMonkey.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7F3E36D31E08F4CA009F7793 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7F3E36DB1E08F4CA009F7793 /* ObjectiveMonkey.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7F3E36D51E08F4CA009F7793 /* libObjectiveMonkey.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectiveMonkey.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3E36D81E08F4CA009F7793 /* ObjectiveMonkey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveMonkey.h; sourceTree = "<group>"; };
+		7F3E36D91E08F4CA009F7793 /* ObjectiveMonkey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveMonkey.m; sourceTree = "<group>"; };
+		7F3E36E31E08F4FD009F7793 /* NSInvocation+ObjectiveMonkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+ObjectiveMonkey.h"; sourceTree = "<group>"; };
+		7F3E36E41E08F4FD009F7793 /* NSInvocation+ObjectiveMonkey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+ObjectiveMonkey.m"; sourceTree = "<group>"; };
+		7F3E36E51E08F4FD009F7793 /* NSMethodSignature+ObjectiveMonkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMethodSignature+ObjectiveMonkey.h"; sourceTree = "<group>"; };
+		7F3E36E61E08F4FD009F7793 /* NSMethodSignature+ObjectiveMonkey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMethodSignature+ObjectiveMonkey.m"; sourceTree = "<group>"; };
+		7F3E36EB1E08F55E009F7793 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		7F3E36ED1E08F5C2009F7793 /* OMKRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMKRuntime.h; sourceTree = "<group>"; };
+		7F3E36EE1E08F5C2009F7793 /* OMKRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMKRuntime.m; sourceTree = "<group>"; };
+		7F3E36EF1E08F5C2009F7793 /* OMKObjcBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMKObjcBox.h; sourceTree = "<group>"; };
+		7F3E36F01E08F5C2009F7793 /* OMKObjcBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMKObjcBox.m; sourceTree = "<group>"; };
+		7F3E36F31E08F628009F7793 /* JSValue+ObjectiveMonkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSValue+ObjectiveMonkey.h"; sourceTree = "<group>"; };
+		7F3E36F41E08F628009F7793 /* JSValue+ObjectiveMonkey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSValue+ObjectiveMonkey.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F3E36D21E08F4CA009F7793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3E36EC1E08F55E009F7793 /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F3E36CC1E08F4CA009F7793 = {
+			isa = PBXGroup;
+			children = (
+				7F3E36D71E08F4CA009F7793 /* ObjectiveMonkey */,
+				7F3E36D61E08F4CA009F7793 /* Products */,
+				7F3E36EA1E08F55D009F7793 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F3E36D61E08F4CA009F7793 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F3E36D51E08F4CA009F7793 /* libObjectiveMonkey.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F3E36D71E08F4CA009F7793 /* ObjectiveMonkey */ = {
+			isa = PBXGroup;
+			children = (
+				7F3E36D81E08F4CA009F7793 /* ObjectiveMonkey.h */,
+				7F3E36D91E08F4CA009F7793 /* ObjectiveMonkey.m */,
+				7F3E36ED1E08F5C2009F7793 /* OMKRuntime.h */,
+				7F3E36EE1E08F5C2009F7793 /* OMKRuntime.m */,
+				7F3E36EF1E08F5C2009F7793 /* OMKObjcBox.h */,
+				7F3E36F01E08F5C2009F7793 /* OMKObjcBox.m */,
+				7F3E36E31E08F4FD009F7793 /* NSInvocation+ObjectiveMonkey.h */,
+				7F3E36E41E08F4FD009F7793 /* NSInvocation+ObjectiveMonkey.m */,
+				7F3E36E51E08F4FD009F7793 /* NSMethodSignature+ObjectiveMonkey.h */,
+				7F3E36E61E08F4FD009F7793 /* NSMethodSignature+ObjectiveMonkey.m */,
+				7F3E36F31E08F628009F7793 /* JSValue+ObjectiveMonkey.h */,
+				7F3E36F41E08F628009F7793 /* JSValue+ObjectiveMonkey.m */,
+			);
+			path = ObjectiveMonkey;
+			sourceTree = "<group>";
+		};
+		7F3E36EA1E08F55D009F7793 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F3E36EB1E08F55E009F7793 /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F3E36D41E08F4CA009F7793 /* ObjectiveMonkey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F3E36DE1E08F4CA009F7793 /* Build configuration list for PBXNativeTarget "ObjectiveMonkey" */;
+			buildPhases = (
+				7F3E36D11E08F4CA009F7793 /* Sources */,
+				7F3E36D21E08F4CA009F7793 /* Frameworks */,
+				7F3E36D31E08F4CA009F7793 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectiveMonkey;
+			productName = ObjectiveMonkey;
+			productReference = 7F3E36D51E08F4CA009F7793 /* libObjectiveMonkey.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F3E36CD1E08F4CA009F7793 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OMK;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = saiten;
+				TargetAttributes = {
+					7F3E36D41E08F4CA009F7793 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = L47JL4W4N2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7F3E36D01E08F4CA009F7793 /* Build configuration list for PBXProject "ObjectiveMonkey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F3E36CC1E08F4CA009F7793;
+			productRefGroup = 7F3E36D61E08F4CA009F7793 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F3E36D41E08F4CA009F7793 /* ObjectiveMonkey */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F3E36D11E08F4CA009F7793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3E36DA1E08F4CA009F7793 /* ObjectiveMonkey.m in Sources */,
+				7F3E36F11E08F5C2009F7793 /* OMKRuntime.m in Sources */,
+				7F3E36E81E08F4FD009F7793 /* NSInvocation+ObjectiveMonkey.m in Sources */,
+				7F3E36E91E08F4FD009F7793 /* NSMethodSignature+ObjectiveMonkey.m in Sources */,
+				7F3E36F21E08F5C2009F7793 /* OMKObjcBox.m in Sources */,
+				7F3E36F51E08F628009F7793 /* JSValue+ObjectiveMonkey.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7F3E36DC1E08F4CA009F7793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F3E36DD1E08F4CA009F7793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F3E36DF1E08F4CA009F7793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L47JL4W4N2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7F3E36E01E08F4CA009F7793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L47JL4W4N2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F3E36D01E08F4CA009F7793 /* Build configuration list for PBXProject "ObjectiveMonkey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3E36DC1E08F4CA009F7793 /* Debug */,
+				7F3E36DD1E08F4CA009F7793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F3E36DE1E08F4CA009F7793 /* Build configuration list for PBXNativeTarget "ObjectiveMonkey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3E36DF1E08F4CA009F7793 /* Debug */,
+				7F3E36E01E08F4CA009F7793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F3E36CD1E08F4CA009F7793 /* Project object */;
+}
